@@ -1,7 +1,8 @@
 import { Directive, ElementRef } from '@angular/core';
 
 @Directive({
-  selector: '[appDarkMode]'
+  selector: '[appDarkMode]',
+  standalone: true
 })
 export class DarkModeDirective {
 
