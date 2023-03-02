@@ -17,11 +17,6 @@ const routes: Routes = [
       (mod) => mod.DetailsComponent)
   },
   {
-    path: 'elements',
-    loadChildren: () => import('./elements-routes').then(
-      (mod) => mod.elementsRoutes)
-  },
-  {
     path: 'internal',
     loadChildren: () => import('./internal/internal-routing.module').then(
       (mod) => mod.InternalRoutingModule
